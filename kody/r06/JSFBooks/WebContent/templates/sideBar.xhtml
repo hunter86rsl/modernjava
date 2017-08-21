@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:form>
+	<div class="leftbar">
+		<ul id="menu">
+			<li><div>
+					<a class="link1" href=""> <span class="label"
+						style="margin-left: 15px;">Strona domowa</span>
+					</a>
+				</div></li>
+			<li><div>
+					<h:commandLink class="link1" action="#{bookController.listAllBooks}">
+						<span style="margin-left: 15px;" class="label">Wszystkie książki</span>
+					</h:commandLink>
+				</div></li>
+			<li><div>
+					<span class="label" style="margin-left: 15px;">Kategorie</span>
+				</div>
+				<ul>
+					<li><a class="label" href=""><span class="label"
+							style="margin-left: 30px;"></span></a></li>
+				</ul></li>
+			<li><div>
+					<span class="label" style="margin-left: 15px;">Kontakt</span>
+				</div></li>
+		</ul>
+	</div>
+</h:form>
+
+</html>
+
+
+
+
+

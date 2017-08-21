@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+	<link rel="stylesheet" href="css/bookstore.css" type="text/css" />
+</h:head>
+<h:body>
+	<div id="centered">
+		<div>
+			<ui:insert name="header">
+				<ui:include src="/templates/header.xhtml" />
+			</ui:insert>
+		</div>
+		<div>
+			<ui:insert name="sideBar">
+				<ui:include src="/templates/sideBar.xhtml" />
+			</ui:insert>
+		</div>
+		<div>
+			<ui:insert name="content">
+				<ui:include src="/templates/contents.xhtml" />
+			</ui:insert>
+		</div>
+	</div>
+</h:body>
+</html>

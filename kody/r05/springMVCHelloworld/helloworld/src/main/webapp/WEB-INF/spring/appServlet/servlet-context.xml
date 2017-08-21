@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc 
+	http://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context 
+		http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- Kontekst serwletu DispatcherServlet: definiuje infrastrukturę przetwarzania żądania tego serwletu. -->
+	
+	<!-- Włącza model programowania frameworku Spring MVC za pomocą adnotacji @Controller. -->
+	<annotation-driven />
+
+	<!--Obsługuje żądania HTTP GET dla zasobów z katalogu /resources/** przez obsługę statycznych zasobów w katalogu ${webappRoot}/resources. -->
+	<resources mapping="/resources/**" location="/resources/" />
+
+	<!-- Rozwiązuje widoki wybrane do renderowania za pomocą adnotacji @Controllers do zasobów .jsp w katalogu /WEB-INF/views. -->
+	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<beans:property name="prefix" value="/WEB-INF/views/" />
+		<beans:property name="suffix" value=".jsp" />
+	</beans:bean>
+	
+	<context:component-scan base-package="com.apress.helloworld" />
+	
+	
+	
+</beans:beans>
