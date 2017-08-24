@@ -1,0 +1,10 @@
+package com.apress.bookstore.model;
+
+public class Author {
+
+	private Long id;
+	private Long bookId;
+	private String firstName;
+	private String lastName;
+
+}

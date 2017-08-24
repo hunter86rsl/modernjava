@@ -1,0 +1,5 @@
+package com.apress.bookstore.model;
+
+public class Author {
+
+}

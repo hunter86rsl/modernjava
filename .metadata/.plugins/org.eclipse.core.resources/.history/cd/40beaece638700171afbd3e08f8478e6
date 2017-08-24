@@ -1,0 +1,5 @@
+package com.apress.bookstore.dao;
+
+public interface BookDAO {
+
+}
