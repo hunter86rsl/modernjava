@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;printWriter&apos; from expression &apos;response.getWriter()&apos;&#x0D;&#x0A;- Original project: &apos;helloworld&apos;&#x0D;&#x0A;- Variable name: &apos;printWriter&apos;&#x0D;&#x0A;- Destination method: &apos;apress.helloworld.HelloWorld.doGet()&apos;&#x0D;&#x0A;- Variable expression: &apos;response.getWriter()&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;printWriter&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;apress.helloworld{HelloWorld.java" name="printWriter" replace="true" selection="945 0" stamp="1503601347610" version="1.0"/>
+</session>

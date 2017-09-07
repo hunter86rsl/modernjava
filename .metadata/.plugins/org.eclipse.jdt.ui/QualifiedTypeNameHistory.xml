@@ -12,4 +12,8 @@
 <fullyQualifiedTypeName name="com.apress.bookstore.dao.BookDAOImpl"/>
 <fullyQualifiedTypeName name="com.apress.bookstore.model.Book"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="com.apress.bookweb.model.Book"/>
+<fullyQualifiedTypeName name="com.apress.bookweb.model.Author"/>
+<fullyQualifiedTypeName name="com.apress.bookweb.model.Category"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,3 @@
+INDEX VERSION 1.126
+D:\Programming\Eclipse\workspace\modernjava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1854797233.index
+\Rozdzial2\src
